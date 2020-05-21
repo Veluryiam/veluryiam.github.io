@@ -1,0 +1,16 @@
+.contour
+{
+	display: flex;
+}
+
+
+
+
+aside
+{
+	display: flex;
+	flex-direction: column;
+	color: green;
+	width: 35%;
+	background-color: #525863
+}
