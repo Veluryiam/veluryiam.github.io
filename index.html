@@ -2,122 +2,138 @@
 <html>
 <head> 
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style">
-	<link rel="stylesheet" type="text/css" href="style2">
 	<title>Mathias BRETINEAU</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<div class="contour">
-	<header>
+	<div class="container">
+<!--Bloc Gauche-->
+<div class="row">
+<aside class="leftSide col-xs-12 col-md-4">
+
+	<div class="identityPicture">
+		<img src="img/identité.png" alt="Photo D'identité">
+	</div>
+
+	<div class="headerName">
 		<h1>
 			Mathias
 			<span>Bretineau</span>
 		</h1>
-			<h2>
-				Développeur Web
-			</h2>
-	</header>
-<!--Bloc Gauche-->
-<aside class="contenugauche">
-	<div class="miniimage">
-		<img src="identité.png">
+
+		<span>
+			Développeur Web
+		</span>
 	</div>
+
 	<!--Contact-->
 	<section>
 		<h2>CONTACT</h2>
-		<p>Adresse
-		<br>
-		15 Rue de l'Aunis
-		<br>
-		17170 Courçon
-		</p>
-		<p>
-			E-mail
+		<div class="sectionContent">
+			<p>Adresse
 			<br>
-			06 56 80 44 55
+			15 Rue de l'Aunis
 			<br>
-			<a href="mailto:bretineau.mathias@orange.fr">Bretineau.Mathias@orange.fr</a>
-		</p>
-		<p>
-			Site Web
-			<br>
-			<a href="https://veluryiam.github.io/Projet_P2/">Veluryiam.github</a>
-		</p>
-		<p>
-			Discord
-			<br>
-			Zennarde#9064
-		</p>
+			17170 Courçon
+			</p>
+			<p>
+				E-mail
+				<br>
+				06 56 80 44 55
+				<br>
+				<a href="mailto:bretineau.mathias@orange.fr">Bretineau.Mathias@orange.fr</a>
+			</p>
+			<p>
+				Site Web
+				<br>
+				<a href="https://veluryiam.github.io/Projet_P2/">Veluryiam.github</a>
+			</p>
+			<p>
+				Discord
+				<br>
+				Zennarde#9064
+			</p>
+		</div>
 	</section>
 	<!--a propos de moi-->
 	<section class="a propos">
 		<h2>A PROPOS DE MOI</h2>
-		<p>Je m'appelle Mathias et j'ai 18 ans.</p>
-		<p>Après quelques mois dans la restauration, j'ai arrêté le CAP Cuisine pour un domaine qui me plaisait plus, le web développement.</p>
-		<p>Ce métier était un rêve pour moi car le domaine informatique a toujours été une véritable passion.</p>
+		<div class="sectionContent">
+			<p>Je m'appelle Mathias et j'ai 18 ans.</p>
+			<p>Après quelques mois dans la restauration, j'ai arrêté le CAP Cuisine pour un domaine qui me plaisait plus, le web développement.</p>
+			<p>Ce métier était un rêve pour moi car le domaine informatique a toujours été une véritable passion.</p>
+		</div>
 	</section>
 	<!--Loisirs-->
 	<section class="loisirs">
 		<h2>LOISIRS</h2>
-		<div>
-		<img src="">
-		<img src="">
-		<img src="">
+		<div class="sectionContent loisirsLogo">
+			<img src="img/joystick.svg">
+			<img src="img/joystick.svg">
+			<img src="img/joystick.svg">
 		</div>
 	</section>
 </aside>
 
 <!--Bloc Droit-->
-<main class="contenudroit">
-	<header>
-		<h1><span>MATHIAS</span> BRETINEAU</h1>
-		<h2><span>Dévelo</span>ppeur Web</h2>
-	</header>
+<main class="rightSide col-xs-12 col-md-8">
 	<!--Formation-->
  <section class="formation">
-        <h2 class=titredroit>
-        	Formation
+        <h2>
+        	<i class="fas fa-book"></i>FORMATION
         </h2>
 
         <article>
-        	<div class="gauche">
-        		<h5 class="date">
-        			<span>04/2020 - Actuellement, <br /> Formation à distance.</span>
-        		</h5>
-        	</div>
+        	<div class="row">
+        		<div class="col-md-4">
+        			<h5 class="date">
+        				<i class="far fa-dot-circle fa-sm" aria-hidden="true"></i>
+        				<span>04/2020 - Actuellement, <br /> Formation à distance.</span>
+        			</h5>
+        		</div>
 
-        	<div class="droit">
-        	<h3>Open Classroom</h3>
-        	<h4>Développeur Web</h4>
-        	<p>En formation de web développement.</p>       		
+        		<div class="col-md-8">
+        			<h3>Open Classroom</h3>
+        			<h4>Développeur Web</h4>
+        			<p>En formation de web développement.</p>       		
+        		</div>
         	</div>
         </article>
 
          <article>
-         	<div class="gauche">
-         		<h5 class="date">
-         			<span>2019 - Fév.2020 <br /> Lagord</span>
-         		</h5>
-         	</div>
+         	<div class="row">
+         		<div class="col-md-4">
+         			<h5 class="date">
+         				<i class="fas fa-circle fa-xs" aria-hidden="true"></i>
+         				<span>2019 - Fév.2020 <br /> Lagord</span>
+         			</h5>
+         		</div>
 
-         	<div class="droit">
+         	<div class="col-md-8">
          		<h3>CFA Lagord</h3>
          		<h4>Cuisinier</h4>
          		<p>Première année de CAP Cuisine.</p>
          	</div>
+         </div>
          </article>
 
          <article>
-         	<div class="gauche">
-         	<h5 class="date">
-         		<span>2019 <br /> La Rochelle</span>
-         	</h5>         		
-         	</div>
+         	<div class="row">
+         		<div class="col-md-4">
+         			<h5 class="date">
+         				<i class="fas fa-circle fa-xs" aria-hidden="true"></i>
+         				<span>2019 <br /> La Rochelle</span>
+         			</h5>         		
+         		</div>
 
-         	<div class="droit">
-         		<h3>Lycée Saint Exupéry</h3>
-         		<h4>Seconde</h4>
-         		<p>Option Chinois LV3.</p>
+         		<div class="col-md-8">
+         			<h3>Lycée Saint Exupéry</h3>
+         			<h4>Seconde</h4>
+         			<p>Option Chinois LV3.</p>
+         		</div>
          	</div>
          </article>
      </section>
@@ -130,18 +146,21 @@
          	</h2>
 
          	<article>
-         		<div class="gauche">
-         			<h5 class="date">
-         				<span>10/2019-02/2020 <br />La Rochelle</span>
-         			</h5>
-         		</div>
+         		<div class="row">
+         			<div class="col-md-4">
+         				<h5 class="date">
+         					<i class="far fa-dot-circle fa-sm" aria-hidden="true"></i>
+         					<span>10/2019-02/2020 <br />La Rochelle</span>
+         				</h5>
+         			</div>
 
-         		<div>
-         			<h3>Le Thiers Temps</h3>
-         			<h4>Apprenti Cuisinier</h4>
-         			<p>
-         				Cuisinier en apprentissage dans un restaurant bistronomique à La Rochelle, près du port.
-         			</p>
+         			<div class="col-md-8">
+         				<h3>Le Thiers Temps</h3>
+         				<h4>Apprenti Cuisinier</h4>
+         				<p>
+         					Cuisinier en apprentissage dans un restaurant bistronomique à La Rochelle, près du port.
+         				</p>
+         			</div>
          		</div>
          	</article>
          </section>
@@ -154,22 +173,25 @@
          	</h2>
 
          	<div class="recommandation">
-         		<div class="recommandationgauche">
-         			<h3>VALET Loic</h3>
-         			<h4>Chef Cuisinier, Le Thiers Temps</h4>
-         			<p>Téléphone : 06 00 00 00 00</p>
-         			<p>Email: Mail@email.com</p>
-         		</div>
+         		<div class="row">
+         			<div class="col-md-6">
+         				<h3>VALET Loic</h3>
+         				<h4>Chef Cuisinier, Le Thiers Temps</h4>
+         				<p>Téléphone : 06 00 00 00 00</p>
+         				<p>Email: Mail@email.com</p>
+         			</div>
 
-         		<div class="recommandationdroite">
-         			<h3>CHOLLEY Rémi</h3>
-         			<h4>Mentor, Open Classroom</h4>
-         			<p>Téléphone: 06 00 00 00 00</p>
-         			<p>Email : Mail@email.com</p>
+         			<div class="col-md-6">
+         				<h3>CHOLLEY Rémi</h3>
+         				<h4>Mentor, Open Classroom</h4>
+         				<p>Téléphone: 06 00 00 00 00</p>
+         				<p>Email : Mail@email.com</p>
+         			</div>
          		</div>
          	</div>
          </footer>
-
+</main>
+</div>
 
 </div>
 </html>

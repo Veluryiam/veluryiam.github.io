@@ -1,0 +1,177 @@
+/* GENERAL */
+
+body {
+	background: #bbbbbb;
+}
+
+.container {
+	max-width: 1170px;
+	margin:auto;
+}
+
+.sectionContent {
+	padding: 15px;
+}
+
+/* END GENERAL */
+
+
+
+
+/* TITRES */
+
+h2 {
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 8px 10px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+main h2 {
+    border: none;
+    border-bottom: 2px solid #007bdb;
+    text-align: left;
+    border-radius: 0;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+
+h2 i {
+	padding-right: 15px;
+    font-size: 25px;
+    color: #007bdb;
+    vertical-align: sub;
+}
+
+.headerName {
+	text-align: center;
+}
+
+.headerName h1 {
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+.headerName h1 span {
+	font-weight: normal;
+}
+
+.headerName > span {
+	text-transform: uppercase;
+}
+
+.rightSide .headerName {
+	text-align: inherit;
+}
+
+/* END TITRES */
+
+
+
+/* COLONNE DE GAUCHE */
+
+.leftSide {
+	background:#191b1f!important;
+	color:white;
+	padding-bottom: 30px;
+}
+
+.identityPicture {
+	text-align: center;
+	margin: 50px 0 25px 0;
+	z-index: 10000;
+}
+
+.identityPicture img {
+	border-radius: 50%;
+}
+
+.loisirsLogo {
+	fill: #ffffff;
+	width: 100%;
+	text-align: center;
+}
+
+.loisirsLogo img {
+	display: inline-block;
+	width: 50px;
+	margin-right: 15px; 
+}
+
+.loisirsLogo img:nth-child(3) {
+	margin-right: 0px; 
+}
+
+/* END COLONNE DE GAUCHE */
+
+
+
+/* COLONNE DE DROITE */
+
+.rightSide {
+	padding: 65px 30px 30px 40px;
+	background:white;
+}
+
+.rightSide .date {
+	font-size: 1rem;
+}
+
+.rightSide h3 {
+	font-size: 1.3rem;
+}
+
+.rightSide h3 {
+	font-size: 1.3rem;
+}
+
+.rightSide h4 {
+	font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.rightSide .recommandation p {
+	margin-bottom:5px ;
+}
+
+.date {
+    display: flex;
+}
+
+.date span {
+	margin-top: -3px;
+}
+
+.date i {
+    margin-right: 5px;
+    color: #007bdb;
+}
+
+/* END COLONNE DE DROITE */
+
+@media screen and (max-width: 767px) {
+	.rightSide {
+		text-align: center;
+	}
+
+	.rightSide .date {
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+
+	.rightSide .formation article {
+		border-bottom: 1px solid #b1b1b1;
+    	margin-bottom: 20px;
+    	padding-bottom: 5px;
+	}
+
+	.rightSide .formation article:nth-child(4) {
+		border:none;
+	}
+
+	.recommandation div:nth-child(1) {
+		margin-bottom: 30px;
+	}
+}
