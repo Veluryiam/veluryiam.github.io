@@ -104,6 +104,10 @@ h2 i {
 	margin-right: 0px; 
 }
 
+.couleur {
+	color:#426ff5;
+}
+
 /* END COLONNE DE GAUCHE */
 
 
@@ -175,3 +179,4 @@ h2 i {
 		margin-bottom: 30px;
 	}
 }
+
