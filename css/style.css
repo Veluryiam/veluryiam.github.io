@@ -22,8 +22,6 @@ body {
 
 h2 {
     font-size: 17px;
-    border: 1px solid white;
-    border-radius: 7px;
     padding: 8px 10px;
     text-align: center;
     margin-top: 16px;
@@ -106,7 +104,9 @@ h2 i {
 
 .couleur {
 	color:#426ff5;
+	background-color:#f7b934;
 }
+
 
 /* END COLONNE DE GAUCHE */
 
@@ -151,6 +151,16 @@ h2 i {
 .date i {
     margin-right: 5px;
     color: #007bdb;
+}
+
+.souligner {
+		text-decoration: underline;
+}
+
+.taille {
+	font-size: 1.5em;
+	font-weight: bold;
+
 }
 
 /* END COLONNE DE DROITE */
