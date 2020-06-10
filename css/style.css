@@ -228,6 +228,7 @@ h2 i {
 @media screen and (max-width: 404px) {
 	.titredroit {
 		font-size: 0.8em
+		padding-left:20px;
 	}
 	
 
