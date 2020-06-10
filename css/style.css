@@ -221,5 +221,11 @@ h2 i {
 	.recommandation div:nth-child(1) {
 		margin-bottom: 30px;
 	}
+
 }
+
+@media screen and (max-width: 404px) {
+	.titredroit {
+		font-size: 0.8em
+	}
 
