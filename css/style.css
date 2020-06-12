@@ -122,7 +122,7 @@ h2 i {
 	background:white;
 }
 
-.rightSide .date {
+.rightSide .when {
 	font-size: 1rem;
 }
 
@@ -143,15 +143,15 @@ h2 i {
 	margin-bottom:5px ;
 }
 
-.date {
+.when {
     display: flex;
 }
 
-.date span {
+.when span {
 	margin-top: -3px;
 }
 
-.date i {
+.when i {
     margin-right: 5px;
     color: #f2c318;
 }
@@ -174,19 +174,19 @@ h2 i {
 	color: black
 }
 
-.li {
+.where {
         list-style-type: none;
         font-size: 1.5rem;
         font-weight: bold;
         padding-left: 20px
 }       
 
-.li2 {
+.work {
 	font-size: 1.2rem;
 	font-weight: normal;
 }
 
-.li3 {
+.what {
 	font-size: 1.1rem;
 	font-weight: normal;
 }
@@ -204,7 +204,7 @@ h2 i {
 		text-align: center;
 	}
 
-	.rightSide .date {
+	.rightSide .when {
 		display: inline-block;
 		margin-bottom: 20px;
 	}
@@ -227,7 +227,7 @@ h2 i {
 
 @media screen and (max-width: 404px) {
 	.titredroit {
-		font-size: 0.8em
+		font-size: 0.8em;
 		padding-left:20px;
 	}
 	
