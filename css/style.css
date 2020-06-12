@@ -174,12 +174,10 @@ h2 i {
 	color: black
 }
 
-.where {
-        list-style-type: none;
+.where  {
         font-size: 1.5rem;
         font-weight: bold;
-        padding-left: 20px
-}       
+    }       
 
 .work {
 	font-size: 1.2rem;
@@ -193,6 +191,10 @@ h2 i {
 
 .row {
 	display: flex;
+}
+
+.where, .work, .what {
+	list-style: none;
 }
 
 
